@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
       <div>
         <img
-          src="/dhule-illustration.jpg"
+          src="/Dhule-illustration.jpg"
           alt="illustration"
           className="w-full h-auto object-contain"
           width={100}
