@@ -812,6 +812,7 @@ const index = () => {
               <Link
                   href="https://citizen.mahapolice.gov.in/Citizen/MH/MobileMissingForm.aspx"
                   target="_blank"
+                  className="group"
                 >
                   
 
@@ -867,7 +868,7 @@ const index = () => {
               <Link
                   href={
                     "https://www.ceir.gov.in/Request/CeirUserBlockRequestDirect.jsp"
-                  } className="group">
+                  } className="group" target="_blank">
                 <div className="relative h-72 rounded-2xl overflow-hidden transform transition-transform duration-300 group-hover:scale-[1.02] shadow-lg">
                 <img
                     src="/phonelost.webp"
@@ -895,6 +896,7 @@ const index = () => {
               <Link
                   href={"https://cybercrime.gov.in/Webform/Accept.aspx"}
                   className="group"
+                  target="_blank"
                 >
                 <div className="relative h-72 rounded-2xl overflow-hidden transform transition-transform duration-300 group-hover:scale-[1.02] shadow-lg">
                 <img
@@ -923,6 +925,7 @@ const index = () => {
               <Link
                   href={"https://cybercrime.gov.in/Webform/Accept.aspx"}
                   className="group"
+                  target="_blank"
                 >
                 <div className="relative h-72 rounded-2xl overflow-hidden transform transition-transform duration-300 group-hover:scale-[1.02] shadow-lg">
                 <img
@@ -949,7 +952,7 @@ const index = () => {
                 </div>
               </Link>
               <Link
-                  href={"https://cybercrime.gov.in/Webform/Accept.aspx"} className="group">
+                  href={"https://cybercrime.gov.in/Webform/Accept.aspx"} className="group" target="_blank">
                 <div className="relative h-72 rounded-2xl overflow-hidden transform transition-transform duration-300 group-hover:scale-[1.02] shadow-lg">
                 <img
                     src="/othercybercrime.webp"
