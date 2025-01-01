@@ -424,7 +424,7 @@ const index = () => {
                       onClick={() => setOfficer("sp")}
                       className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 px-5 py-2.5 rounded-full font-medium transition-all duration-300 group/btn text-sm backdrop-blur-sm"
                     >
-                      <span>View Message</span>
+                      <span>{Ctx.lang === "en" ? "View Message" : "संदेश देशान्तरित करा"}</span>
                       <svg
                         className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1"
                         fill="none"
@@ -469,7 +469,7 @@ const index = () => {
                       onClick={() => setOfficer("igp")}
                       className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 px-5 py-2.5 rounded-full font-medium transition-all duration-300 group/btn text-sm backdrop-blur-sm"
                     >
-                      <span>View Message</span>
+                      <span>{Ctx.lang === "en" ? "View Message" : "संदेश देशान्तरित करा"}</span>
                       <svg
                         className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1"
                         fill="none"
@@ -514,7 +514,7 @@ const index = () => {
                       onClick={() => setOfficer("dgp")}
                       className="inline-flex items-center w-full gap-2 bg-white/10 hover:bg-white/20 px-5 py-2.5 rounded-full font-medium transition-all duration-300 group/btn text-sm backdrop-blur-sm"
                     >
-                      <span>View Message</span>
+                      <span>{Ctx.lang === "en" ? "View Message" : "संदेश देशान्तरित करा"}</span>
                       <svg
                         className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1"
                         fill="none"

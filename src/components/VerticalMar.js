@@ -32,6 +32,7 @@ const VerticalMar = () => {
       );
 
       const data = await response.json();
+      debugger;
 
       if (data.records) {
         // console.log(data);
