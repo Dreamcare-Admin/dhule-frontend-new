@@ -343,31 +343,31 @@ const index = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/30 z-10"></div>
 
           <div className="relative z-20 w-full h-full flex flex-col justify-center items-center text-center text-white px-6 lg:px-16">
-            <div className="flex flex-col items-center bg-white bg-opacity-10 backdrop-blur-md p-8 rounded-lg shadow-xl space-y-6">
+            <div className="flex flex-col items-center bg-black bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-xl space-y-6">
               <div className="flex items-center space-x-8">
                 <img
                   src="/national-emblem.webp"
                   alt="National emblem"
-                  className="h-28 lg:h-36 w-auto block drop-shadow-lg"
+                  className="h-28 lg:h-36 w-auto block drop-shadow-xl"
                 />
                 <img
                   src="/logo-new.jpg"
                   alt="Logo image"
-                  className="h-28 lg:h-36 w-auto drop-shadow-lg"
+                  className="h-28 lg:h-36 w-auto drop-shadow-xl"
                   title={t("police_station_name")}
                 />
               </div>
 
-              <p className="text-lg lg:text-xl leading-relaxed max-w-4xl">
+              <p className="text-lg lg:text-xl leading-relaxed max-w-4xl font-medium text-shadow">
                 {t("indexp1")} {t("dial")}{" "}
-                <a href="tel:112" className="text-blue-500 font-bold underline ">112</a>
+                <a href="tel:112" className="text-blue-300 font-bold underline hover:text-blue-200">112</a>
                 <br />
                 {t("indexp2")}
               </p>
 
-              <p className="text-lg lg:text-xl leading-relaxed max-w-4xl">
+              <p className="text-lg lg:text-xl leading-relaxed max-w-4xl font-medium text-shadow">
                 {t("indexp3")} {t("dial")}{" "}
-                <a href="tel:1930" className="text-blue-500 font-bold underline ">1930</a>
+                <a href="tel:1930" className="text-blue-300 font-bold underline hover:text-blue-200">1930</a>
                 <br />
                 {t("indexp4")}
               </p>
